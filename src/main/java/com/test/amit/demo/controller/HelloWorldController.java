@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/hello")
 
 public class HelloWorldController {
 
-    @GetMapping("path")
+    @GetMapping("")
     public String abc(){
         return "as";
     }
