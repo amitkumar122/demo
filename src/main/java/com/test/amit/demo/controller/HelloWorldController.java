@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 public class HelloWorldController {
 
-    @GetMapping("")
+    @GetMapping("/world")
     public String abc(){
         return "as";
     }
